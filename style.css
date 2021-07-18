@@ -1,0 +1,35 @@
+#image{height: 80vh;
+       width: 65%;
+       background-image: url("./africa5.jpg");
+       background-repeat: no-repeat;
+       background-size: cover;
+       margin-top: 50px;
+}
+*{
+  margin: 0;
+}
+/* #content > h1{
+  padding-top: 200px;
+  color: darkorange;
+}
+#content > h2{
+  padding-top: 30px;
+  color:darkorange;
+}
+#content > h3{
+  padding-top: 30px;
+}
+#content span{
+            color: brown;
+}
+#content p{
+  color:black;
+} */
+/* .button{
+  background-color: darkorange;
+  width: 100px;
+  margin-left: 15%;
+  margin-bottom: 5%;
+  margin-top: 0;
+  border-radius: 5px;
+} */
