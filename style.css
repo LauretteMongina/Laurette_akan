@@ -8,7 +8,7 @@
 *{
   margin: 0;
 }
-/* #content > h1{
+#content > h1{
   padding-top: 200px;
   color: darkorange;
 }
@@ -24,7 +24,7 @@
 }
 #content p{
   color:black;
-} */
+}
 /* .button{
   background-color: darkorange;
   width: 100px;
