@@ -52,26 +52,36 @@
             <img src="./a-removebg-preview.png" alt="">
           </div>
            <div class="col-lg-5" id="contenttwo">
-             <form class="date">
+             <form class="date" 
+              onsubmit="return checkInput()" action="#message"
+              >
                <div class="form-row">
                  <div class="col-md-4 mb-3">
-                   <label for="birthday"><label style="color: darkorange; padding-top: 50px; padding-bottom: 20px;">Birthday</label>
-                   <input type="date" class="form-control" id="date" placeholder="mm/dd/yyyy" value="" required>
+                   <label for="day"><label style="color: darkorange; padding-top: 50px; padding-bottom: 20px;">Birthday</label>
+                   <input type="text" class="form-control" id="day" placeholder="" value="" >
                  </div>
+                 <div class="col-md-4 mb-3">
+                  <label for="month"><label style="color: darkorange; padding-top: 50px; padding-bottom: 20px;">Month</label>
+                  <input type="text" class="form-control" id="month" placeholder="" value="" >
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="birthday"><label style="color: darkorange; padding-top: 50px; padding-bottom: 20px;">Year</label>
+                  <input type="text" class="form-control" id="year" placeholder="" value="" >
+                </div>
                </div>
              </form>
-               <div class="">
+               <div class="radio">
                  <label for="gender" class="mylabel mb-4"><label style="color: darkorange; padding-top: 50px; padding-bottom: 20px;">Gender</label>
                    <div class="form-group mb-2">
                      <div class="form-check form-check-inline w-25">
                        <label class="form-check-label radio">
-                       <input class="form-check-input radio" type="radio" name="inlineRadioOptions"
-                       id="Radio" value="male">Male</label>
+                       <input class="form-check-input radio" type="radio" name="Options"
+                       id="maleR" value="male">Male</label>
                      </div>
                      <div class="form-check form-check-inline w-15">
                        <label class="form-check-label radio">
-                       <input class="form-check-input radio" type="radio" name="inlineRadioOptions"
-                       id="Radio" value="female"> Female</label>
+                       <input class="form-check-input radio" type="radio" name="Options"
+                       id="femaleR" value="female"> Female</label>
                      </div>
                    </div>
                </div>
