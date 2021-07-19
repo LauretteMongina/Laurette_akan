@@ -7,7 +7,8 @@ function getInput() {
       );
       var year = parseInt(
       document.getElementById("year").value);
-      var gender = document.querySelectorAll('input[name="Options"').value;
+      var male = document.getElementById("maleR");
+      var female = document.getElementById("femaleR");
 
       var dateOfBirth = new Date(year + "/" + month + "/" + date);
       var weekDay = dateOfBirth.getDay();
@@ -25,39 +26,40 @@ function getInput() {
           var akanFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
       
           var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-      if (weekDay === 0 && gender === document.getElementById("maleR").checked) {
+       
+      if (weekDay === 0 && male.checked) {
       return alert(
           "Yikes! Your Akan name is  " +
           akanMale[weekDay] +
           ("  .You were born on a  " + daysOfTheWeek[weekDay]));
       } 
-      else if (weekDay === 1 && gender === document.getElementById("maleR").checked) {
+      else if (weekDay === 1 && male.checked) {
       return alert(
           "Yikes! Your Akan name is  " +
           akanMale[weekDay] +
           ("  .You were born on a  " + daysOfTheWeek[weekDay]));
       } 
-      else if (weekDay === 2 && gender === document.getElementById("maleR").checked) {
+      else if (weekDay === 2 && male.checked) {
       return alert(
           "Yikes! Your Akan name is  " +
           akanMale[weekDay] +
           ("  .You were born on a  " + daysOfTheWeek[weekDay]));
-      } else if (weekDay === 3 && gender === document.getElementById("maleR").checked) {
+      } else if (weekDay === 3 && male.checked) {
       return alert(
           "Yikes! Your Akan name is  " +
           akanMale[weekDay] +
           ("  .You were born on a  " + daysOfTheWeek[weekDay]));
-      } else if (weekDay === 4 && gender === document.getElementById("maleR").checked) {
+      } else if (weekDay === 4 && male.checked) {
       return alert(
           "Yikes! Your Akan name is  " +
           akanMale[weekDay] +
           ("  .You were born on a  " + daysOfTheWeek[weekDay]));
-      } else if (weekDay === 5 && gender === document.getElementById("maleR").checked) {
+      } else if ((weekDay === 5) && (male.checked)) {
       return alert(          
         "Yikes! Your Akan name is  " +
           akanMale[weekDay] +
           ("  .You were born on a  " + daysOfTheWeek[weekDay]));
-      } else if (weekDay === 6 && gender === document.getElementById("maleR").checked) {
+      } else if (weekDay === 6 && male.checked) {
       return alert(
           "Yikes! Your Akan name is  " +
           akanMale[weekDay] +
@@ -69,35 +71,35 @@ function getInput() {
           "Yikes! Your Akan name is  " +
           akanFemale[weekDay] +
           ("  .You were born on a  " + daysOfTheWeek[weekDay]));
-      } else if (weekDay === 1 && gender === document.getElementById("femaleR").checked) {
+      } else if (weekDay === 1 && female.checked) {
       return alert(
           "Yikes! Your Akan name is  " +
           akanFemale[weekDay] +
           ("  .You were born on a  " + daysOfTheWeek[weekDay]));
-      } else if (weekDay === 2 && gender === document.getElementById("femaleR").checked) {
+      } else if (weekDay === 2 && female.checked) {
       return alert(
           "Yikes! Your Akan name is  " +
           akanFemale[weekDay] +
           ("  .You were born on a  " + daysOfTheWeek[weekDay]));
-      } else if (weekDay === 3 && gender === document.getElementById("femaleR").checked) {
+      } else if (weekDay === 3 && female.checked) {
       return alert(
           "Yikes! Your Akan name is  " +
           akanFemale[weekDay] +
           ("  .You were born on a  " + daysOfTheWeek[weekDay]));
-      } else if (weekDay === 4 && gender === document.getElementById("femaleR").checked) {
+      } else if (weekDay === 4 && female.checked) {
       return alert(
           "Yikes! Your Akan name is  " +
           akanFemale[weekDay] +
           ("  .You were born on a  " + daysOfTheWeek[weekDay]));
-      } else if (weekDay === 5 && gender === document.getElementById("femaleR").checked) {
+      } else if (weekDay === 5 && female.checked) {
       return alert(
           "Yikes! Your Akan name is  " +
           akanFemale[weekDay] +
           ("  .You were born on a  " + daysOfTheWeek[weekDay]));
-      } else if (weekDay === 6 && gender === document.getElementById("femaleR").checked) {
+      } else if (weekDay === 6 && female.checked) {
       return alert(
           "Yikes! Your Akan name is  " +
           akanFemale[weekDay] +
           ("  .You were born on a  " + daysOfTheWeek[weekDay]));
   }
-}
+document.getElementsByClassName("date").reset();}
