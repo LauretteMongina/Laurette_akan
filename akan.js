@@ -89,12 +89,12 @@ function getInput() {
           "Yikes! Your Akan name is  " +
           akanFemale[weekDay] +
           ("  .You were born on a  " + daysOfTheWeek[weekDay]));
-      } else if (weekDay === 5 && gender === document.getElementById("maleR").checked) {
+      } else if (weekDay === 5 && gender === document.getElementById("femaleR").checked) {
       return alert(
           "Yikes! Your Akan name is  " +
           akanFemale[weekDay] +
           ("  .You were born on a  " + daysOfTheWeek[weekDay]));
-      } else if (weekDay === 6 && gender === document.getElementById("maleR").checked) {
+      } else if (weekDay === 6 && gender === document.getElementById("femaleR").checked) {
       return alert(
           "Yikes! Your Akan name is  " +
           akanFemale[weekDay] +
