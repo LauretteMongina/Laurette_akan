@@ -38,8 +38,8 @@ Female
 
 
 
-<img src="" alt="Getting Started">
-<img src="" alt="Getting Started">
+<img src="./img.png" alt="Getting Started">
+<img src="./img2.png" alt="Getting Started">
 
 ## Requirements
 <ul>
