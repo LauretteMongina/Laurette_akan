@@ -1,6 +1,6 @@
 # AKAN_NAME GENERATOR
 #### It's about an Akan name generator. A user inputs their birth date and a name is generated for them in Ghanaian culture.
-#### By Laurette Mong'ina.
+#### By Laurette Mong'ina.https://laurettemongina.github.io/Laurette_akan/
 ## Akan_Name
 Akan name generator is a project based on Ghanaian culture. A user inputs their birthdate, and a name is generated for them depending on the day they were born. We have a landing page that has a short description on the akan naming system and then a form page where user inputs their date and selects gender. Below are the list of names
 Male
