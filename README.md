@@ -61,6 +61,7 @@ Female
   <li>If the month is greater than 12 or less than 1, the user will be alerted of an error</li>
   <li>else if, after checking the gender and submitting the form, user is alerted of their Akan name and the day they were born. Afterwards, the form resets</li>
   </ul>
+
 ## Known Bugs
 None. Website runs well.
 ## Technologies Used
