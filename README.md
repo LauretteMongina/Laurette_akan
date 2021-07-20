@@ -54,12 +54,13 @@ Female
 <li>Navigate to the top level of your directory.</li>
 <li>Open the index.html in your browser</li>
 </ul>
-##BDD
+## BDD
 <ul>
   <li>A form where a user inputs their birthday</li>
   <li>If the date is less than 0 or greater than 31, the form will not submit and will alert user of an error</li>
   <li>If the month is greater than 12 or less than 1, the user will be alerted of an error</li>
   <li>else if, after checking the gender and submitting the form, user is alerted of their Akan name and the day they were born. Afterwards, the form resets</li>
+  </ul>
 ## Known Bugs
 None. Website runs well.
 ## Technologies Used
