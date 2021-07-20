@@ -54,9 +54,14 @@ Female
 <li>Navigate to the top level of your directory.</li>
 <li>Open the index.html in your browser</li>
 </ul>
-
+##BDD
+<ul>
+  <li>A form where a user inputs their birthday</li>
+  <li>If the date is less than 0 or greater than 31, the form will not submit and will alert user of an error</li>
+  <li>If the month is greater than 12 or less than 1, the user will be alerted of an error</li>
+  <li>else if, after checking the gender and submitting the form, user is alerted of their Akan name and the day they were born. Afterwards, the form resets</li>
 ## Known Bugs
-My website has undefined functions.
+None. Website runs well.
 ## Technologies Used
 I used HTML,CSS and Java Script to create this akan name generator. HTML for the structure and css for the styling. Javascript to validate the form and bootstrap for the grid system and button classes. I used vscode as my code editor and deployed on Github.
 ## Support and contact details
