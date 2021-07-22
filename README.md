@@ -1,6 +1,6 @@
 # AKAN_NAME GENERATOR
 #### It's about an Akan name generator. A user inputs their birth date and a name is generated for them in Ghanaian culture.
-#### By Laurette Mong'ina.
+#### By Laurette Mong'ina.https://laurettemongina.github.io/Laurette_akan/
 ## Akan_Name
 Akan name generator is a project based on Ghanaian culture. A user inputs their birthdate, and a name is generated for them depending on the day they were born. We have a landing page that has a short description on the akan naming system and then a form page where user inputs their date and selects gender. Below are the list of names
 Male
@@ -54,9 +54,16 @@ Female
 <li>Navigate to the top level of your directory.</li>
 <li>Open the index.html in your browser</li>
 </ul>
+## BDD
+<ul>
+  <li>A form where a user inputs their birthday</li>
+  <li>If the date is less than 0 or greater than 31, the form will not submit and will alert user of an error</li>
+  <li>If the month is greater than 12 or less than 1, the user will be alerted of an error</li>
+  <li>else if, after checking the gender and submitting the form, user is alerted of their Akan name and the day they were born. Afterwards, the form resets</li>
+  </ul>
 
 ## Known Bugs
-My website has undefined functions.
+None. Website runs well.
 ## Technologies Used
 I used HTML,CSS and Java Script to create this akan name generator. HTML for the structure and css for the styling. Javascript to validate the form and bootstrap for the grid system and button classes. I used vscode as my code editor and deployed on Github.
 ## Support and contact details
